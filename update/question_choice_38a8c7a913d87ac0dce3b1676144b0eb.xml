@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>300</order>
+        <question display_value="Engagement location?">d6540fa513d87ac0dce3b1676144b074</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>rob.pickering</sys_created_by>
+        <sys_created_on>2017-01-13 22:46:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>38a8c7a913d87ac0dce3b1676144b0eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Customer Site</sys_name>
+        <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+        <sys_update_name>question_choice_38a8c7a913d87ac0dce3b1676144b0eb</sys_update_name>
+        <sys_updated_by>rob.pickering</sys_updated_by>
+        <sys_updated_on>2017-01-16 22:07:18</sys_updated_on>
+        <text>Customer Site</text>
+        <value>Customer Site</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=38a8c7a913d87ac0dce3b1676144b0eb"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>38a8c7a913d87ac0dce3b1676144b0eb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rob.pickering</sys_created_by>
+        <sys_created_on>2017-01-13 22:46:00</sys_created_on>
+        <sys_id>32a887a913d87ac0dce3b1676144b0d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rob.pickering</sys_updated_by>
+        <sys_updated_on>2017-01-13 22:46:00</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>38a8c7a913d87ac0dce3b1676144b0eb</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>rob.pickering</sys_created_by>
+        <sys_created_on>2017-01-13 22:46:00</sys_created_on>
+        <sys_id>bea887a913d87ac0dce3b1676144b0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>rob.pickering</sys_updated_by>
+        <sys_updated_on>2017-01-13 22:46:00</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

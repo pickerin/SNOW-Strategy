@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_strategy.getAudienceAccounts</api_name>
+        <client_callable>false</client_callable>
+        <description>Script Include used to set Ref Qual on Account field when a specific Audience is Selected.&#13;
+Customer = returns only customer records&#13;
+Partner = returns only partner records&#13;
+Prospect = returns both prospect and suspect records</description>
+        <name>getAudienceAccounts</name>
+        <script><![CDATA[var getAudienceAccounts = Class.create();
+getAudienceAccounts.prototype = {
+    initialize: function() {
+    },
+	getAudienceAccounts: function(){
+		var arr = "type=";
+		//var arr used to hold ref qual;
+		var audience = current.audience;
+		gs.info('audience'+audience);
+		if(audience == 'Customer'){
+				arr += audience;
+			//return query condition for showing only Customers
+			return arr;
+		}
+		if(audience == 'Partner'){
+			arr += 'Customer via Partner';
+		//return query condition for showing only Partners
+			return arr;	
+		}
+		if(audience == 'Prospect'){
+				arr += audience+"^ORtype=Suspect";
+			//return query condition for showing both Prospects and Suspects
+			return arr;
+		}
+	},
+
+    type: 'getAudienceAccounts'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>michael.thompson</sys_created_by>
+        <sys_created_on>2016-11-16 20:46:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9afe7f7e13c32600dbe0bcc32244b0d8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>getAudienceAccounts</sys_name>
+        <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+        <sys_update_name>sys_script_include_9afe7f7e13c32600dbe0bcc32244b0d8</sys_update_name>
+        <sys_updated_by>rob.pickering</sys_updated_by>
+        <sys_updated_on>2017-01-13 20:09:00</sys_updated_on>
+    </sys_script_include>
+</record_update>

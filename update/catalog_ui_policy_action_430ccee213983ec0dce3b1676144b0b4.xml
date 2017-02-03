@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Engagement">158be5e513d47ac0dce3b1676144b015</catalog_item>
+        <catalog_variable>IO:e34b4aa213983ec0dce3b1676144b063</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>rob.pickering</sys_created_by>
+        <sys_created_on>2017-01-16 20:55:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>430ccee213983ec0dce3b1676144b0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>position</sys_name>
+        <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_430ccee213983ec0dce3b1676144b0b4</sys_update_name>
+        <sys_updated_by>rob.pickering</sys_updated_by>
+        <sys_updated_on>2017-01-16 20:55:04</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show / Hide SCI-PAB">b4bb422613983ec0dce3b1676144b098</ui_policy>
+        <variable>position</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

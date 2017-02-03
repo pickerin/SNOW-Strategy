@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="b217b7fa13c32600dbe0bcc32244b06e" sys_domain="global" table="x_snc_strategy_engagements" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>michael.thompson</sys_created_by>
+            <sys_created_on>2016-11-16 20:02:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a17b7fa13c32600dbe0bcc32244b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_strategy_engagements" name="x_snc_strategy_engagements" sys_domain="global" view="Default view">b217b7fa13c32600dbe0bcc32244b06e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="x_snc_strategy_engagements" name="x_snc_strategy_engagements" sys_domain="global" view="Default view">e4b63bba13c32600dbe0bcc32244b08e</sys_ui_section>
+            <sys_updated_by>michael.thompson</sys_updated_by>
+            <sys_updated_on>2016-11-16 20:02:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>michael.thompson</sys_created_by>
+            <sys_created_on>2016-11-16 20:02:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba17b7fa13c32600dbe0bcc32244b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_strategy_engagements" name="x_snc_strategy_engagements" sys_domain="global" view="Default view">b217b7fa13c32600dbe0bcc32244b06e</sys_ui_form>
+            <sys_ui_section caption="Logistics" display_value="x_snc_strategy_engagements" name="x_snc_strategy_engagements" sys_domain="global" view="Default view">3e17b7fa13c32600dbe0bcc32244b06d</sys_ui_section>
+            <sys_updated_by>michael.thompson</sys_updated_by>
+            <sys_updated_on>2016-11-16 20:02:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-06 16:37:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f211b11713c0b280e0dcb2566144b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_strategy_engagements" name="x_snc_strategy_engagements" sys_domain="global" view="Default view">b217b7fa13c32600dbe0bcc32244b06e</sys_ui_form>
+            <sys_ui_section caption="SCIPAB" display_value="x_snc_strategy_engagements" name="x_snc_strategy_engagements" sys_domain="global" view="Default view">ee11b11713c0b280e0dcb2566144b06d</sys_ui_section>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-06 16:37:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-24 01:49:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21a2533013a03604dce3b1676144b045</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_strategy_engagements" name="x_snc_strategy_engagements" sys_domain="global" view="Default view">b217b7fa13c32600dbe0bcc32244b06e</sys_ui_form>
+            <sys_ui_section caption="Financials" display_value="x_snc_strategy_engagements" name="x_snc_strategy_engagements" sys_domain="global" view="Default view">1da2533013a03604dce3b1676144b044</sys_ui_section>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-24 01:49:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_strategy_engagements</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>michael.thompson</sys_created_by>
+            <sys_created_on>2016-11-16 20:02:49</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b217b7fa13c32600dbe0bcc32244b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_strategy_engagements</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b217b7fa13c32600dbe0bcc32244b06e</sys_update_name>
+            <sys_updated_by>michael.thompson</sys_updated_by>
+            <sys_updated_on>2016-11-16 20:02:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

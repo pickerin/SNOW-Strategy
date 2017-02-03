@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="topic" label="Topic(s) - Obsolete" language="en" table="x_snc_strategy_engagements">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>topic</element>
+            <help/>
+            <hint/>
+            <label>Topic(s) - Obsolete</label>
+            <language>en</language>
+            <name>x_snc_strategy_engagements</name>
+            <plural>Topic(s) - Obsoletes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>michael.thompson</sys_created_by>
+            <sys_created_on>2016-11-16 19:31:41</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>feff233a13c32600dbe0bcc32244b089</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Topic(s) - Obsolete</sys_name>
+            <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_strategy_engagements_topic_en</sys_update_name>
+            <sys_updated_by>michael.thompson</sys_updated_by>
+            <sys_updated_on>2016-12-09 23:59:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

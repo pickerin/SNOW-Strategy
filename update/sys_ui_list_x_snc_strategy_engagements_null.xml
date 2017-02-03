@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_strategy_engagements" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_snc_strategy_engagements" element="NULL" name="x_snc_strategy_engagements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8f81848f13c32600dbe0bcc32244b0a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-17 18:36:18</sys_created_on>
+            <sys_id>7bd5b6fe13187ec0dce3b1676144b0d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-17 18:36:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>engagement_date</element>
+            <list_id display_value="x_snc_strategy_engagements" element="NULL" name="x_snc_strategy_engagements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8f81848f13c32600dbe0bcc32244b0a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-17 18:36:18</sys_created_on>
+            <sys_id>fbd5b6fe13187ec0dce3b1676144b0d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-17 18:36:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>audience</element>
+            <list_id display_value="x_snc_strategy_engagements" element="NULL" name="x_snc_strategy_engagements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8f81848f13c32600dbe0bcc32244b0a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-17 18:36:18</sys_created_on>
+            <sys_id>7fd5b6fe13187ec0dce3b1676144b0d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-17 18:36:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="x_snc_strategy_engagements" element="NULL" name="x_snc_strategy_engagements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8f81848f13c32600dbe0bcc32244b0a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-17 18:36:18</sys_created_on>
+            <sys_id>ffd5b6fe13187ec0dce3b1676144b0d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-17 18:36:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>topic_s</element>
+            <list_id display_value="x_snc_strategy_engagements" element="NULL" name="x_snc_strategy_engagements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8f81848f13c32600dbe0bcc32244b0a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-17 18:36:18</sys_created_on>
+            <sys_id>73d5b6fe13187ec0dce3b1676144b0d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-17 18:36:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_by</element>
+            <list_id display_value="x_snc_strategy_engagements" element="NULL" name="x_snc_strategy_engagements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8f81848f13c32600dbe0bcc32244b0a1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-17 18:36:18</sys_created_on>
+            <sys_id>f3d5b6fe13187ec0dce3b1676144b0d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-17 18:36:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_strategy_engagements</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>rob.pickering</sys_created_by>
+            <sys_created_on>2017-01-17 18:36:18</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f81848f13c32600dbe0bcc32244b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_strategy_engagements</sys_name>
+            <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_strategy_engagements_null</sys_update_name>
+            <sys_updated_by>rob.pickering</sys_updated_by>
+            <sys_updated_on>2017-01-17 18:36:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

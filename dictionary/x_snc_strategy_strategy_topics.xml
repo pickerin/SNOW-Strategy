@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Strategy Topics" max_length="40" name="x_snc_strategy_strategy_topics" type="collection">
+        <element display="true" label="Topic" mandatory="true" max_length="80" name="topic" type="string"/>
+    </element>
+</database>

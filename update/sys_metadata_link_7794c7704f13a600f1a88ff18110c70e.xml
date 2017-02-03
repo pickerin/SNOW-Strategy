@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>810e81df4f0b2600f1a88ff18110c700</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_snc_strategy_strategy_topics">
+    <x_snc_strategy_strategy_topics action="INSERT_OR_UPDATE">
+        <sys_created_by>michael.thompson</sys_created_by>
+        <sys_created_on>2016-11-17 21:01:09</sys_created_on>
+        <sys_id>810e81df4f0b2600f1a88ff18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.thompson</sys_updated_by>
+        <sys_updated_on>2016-11-17 21:01:09</sys_updated_on>
+        <topic>Human Resources</topic>
+    </x_snc_strategy_strategy_topics>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>grant.hulbert</sys_created_by>
+        <sys_created_on>2016-11-22 21:30:06</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7794c7704f13a600f1a88ff18110c70e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Human Resources</sys_name>
+        <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+        <sys_update_name>sys_metadata_link_7794c7704f13a600f1a88ff18110c70e</sys_update_name>
+        <sys_updated_by>grant.hulbert</sys_updated_by>
+        <sys_updated_on>2016-11-22 21:30:06</sys_updated_on>
+        <tablename>x_snc_strategy_strategy_topics</tablename>
+    </sys_metadata_link>
+</record_update>

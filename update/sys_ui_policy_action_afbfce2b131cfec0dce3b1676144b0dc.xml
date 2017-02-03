@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>starting_acv_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>rob.pickering</sys_created_by>
+        <sys_created_on>2017-01-19 23:45:20</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>afbfce2b131cfec0dce3b1676144b0dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>starting_acv_date</sys_name>
+        <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+        <sys_update_name>sys_ui_policy_action_afbfce2b131cfec0dce3b1676144b0dc</sys_update_name>
+        <sys_updated_by>rob.pickering</sys_updated_by>
+        <sys_updated_on>2017-01-19 23:45:20</sys_updated_on>
+        <table>x_snc_strategy_engagements</table>
+        <ui_policy display_value="Set ACV Fields to RO">c7a0b12913d47ac0dce3b1676144b0d1</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Strategy Engagements" max_length="40" name="x_snc_strategy_engagements" type="collection">
+        <element label="Account" max_length="32" name="account" reference="sales_account" reference_qual="javascript:new getAudienceAccounts().getAudienceAccounts();" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Action" max_length="4000" name="action" type="string"/>
+        <element active="false" label="as of" max_length="40" name="acv_as_of" type="glide_date_time"/>
+        <element choice="1" label="Audience" max_length="40" name="audience" type="choice">
+            <choice>
+                <element label="Customer" sequence="0" value="Customer"/>
+                <element label="Prospect" sequence="1" value="Prospect"/>
+                <element label="Partner" sequence="2" value="Partner"/>
+                <element label="Internal" sequence="3" value="Internal"/>
+                <element label="Event" sequence="4" value="Event"/>
+            </choice>
+        </element>
+        <element label="Benefit" max_length="4000" name="benefit" type="string"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element label="Complication" max_length="4000" name="complication" type="string"/>
+        <element label="Current ACV" max_length="15" name="current_acv" type="decimal"/>
+        <element label="Current ACV date" max_length="40" name="current_acv_date" type="glide_date_time"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Engagement date" max_length="40" name="engagement_date" type="glide_date_time"/>
+        <element label="Event name" max_length="80" name="event_name" type="string"/>
+        <element label="Implication" max_length="4000" name="implication" type="string"/>
+        <element label="Internal account" max_length="32" name="internal_account" reference="sys_user" type="reference"/>
+        <element choice="1" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element label="ServiceNow Facility" sequence="0" value="ServiceNow Facility"/>
+                <element label="Event Location" sequence="1" value="Event Location"/>
+                <element label="Customer Site" sequence="2" value="Customer Site"/>
+                <element label="Virtual" sequence="3" value="Virtual"/>
+            </choice>
+        </element>
+        <element active="false" label="Name" max_length="40" name="name" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened by" max_length="32" name="opened_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Position" max_length="4000" name="position" type="string"/>
+        <element label="Presentation URL" max_length="1024" name="presentation" type="url"/>
+        <element label="Name" max_length="120" name="short_description" type="string"/>
+        <element label="Situation" max_length="4000" name="situation" type="string"/>
+        <element label="Starting ACV" max_length="15" name="starting_acv" type="decimal"/>
+        <element label="Starting ACV date" max_length="40" name="starting_acv_date" type="glide_date_time"/>
+        <element active="false" choice="1" label="Topic(s) - Obsolete" max_length="40" name="topic" reference="x_snc_strategy_strategy_topics" type="glide_list">
+            <choice/>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Topic(s)" max_length="1024" name="topic_s" reference="x_snc_strategy_strategy_topics" type="glide_list"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Article / Blog" sequence="0" value="Article / Blog"/>
+                <element label="Breakout / Meeting" sequence="2" value="Breakout / Meeting"/>
+                <element label="EBC" sequence="3" value="EBC"/>
+                <element label="Publication" sequence="6" value="Publication"/>
+                <element label="SNUG" sequence="8" value="SNUG"/>
+                <element label="Speaking" sequence="9" value="Speaking"/>
+                <element label="Workshop" sequence="12" value="Workshop"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="opened_by"/>
+        </index>
+        <index name="index2">
+            <element name="internal_account"/>
+        </index>
+        <index name="index3">
+            <element name="account"/>
+        </index>
+    </element>
+</database>

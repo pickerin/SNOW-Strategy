@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>event_name</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>namrata.nadagoud</sys_created_by>
+        <sys_created_on>2016-12-13 01:44:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_data_policy display_value="">f2edf21bdb63620080f0750aaf961919</sys_data_policy>
+        <sys_id>419e7a1bdb63620080f0750aaf961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>event_name</sys_name>
+        <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+        <sys_update_name>sys_data_policy_rule_419e7a1bdb63620080f0750aaf961947</sys_update_name>
+        <sys_updated_by>namrata.nadagoud</sys_updated_by>
+        <sys_updated_on>2016-12-13 01:44:22</sys_updated_on>
+        <table>x_snc_strategy_engagements</table>
+    </sys_data_policy_rule>
+</record_update>

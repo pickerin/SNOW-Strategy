@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Strategy">2e2f2ff613c32600dbe0bcc32244b04d</application>
+        <filter/>
+        <name>Strategy Topics</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_strategy.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>michael.thompson</sys_created_by>
+        <sys_created_on>2016-11-17 20:56:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4dfccd5f4f0b2600f1a88ff18110c7b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Strategy Topics</sys_name>
+        <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
+        <sys_update_name>sys_ui_module_4dfccd5f4f0b2600f1a88ff18110c7b2</sys_update_name>
+        <sys_updated_by>michael.thompson</sys_updated_by>
+        <sys_updated_on>2016-11-17 20:56:22</sys_updated_on>
+        <table>x_snc_strategy_strategy_topics</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
