@@ -9,8 +9,9 @@
                 <element label="Customer" sequence="0" value="Customer"/>
                 <element label="Prospect" sequence="1" value="Prospect"/>
                 <element label="Partner" sequence="2" value="Partner"/>
-                <element label="Internal" sequence="3" value="Internal"/>
-                <element label="Event" sequence="4" value="Event"/>
+                <element label="Alliance" sequence="3" value="Alliance"/>
+                <element label="Internal" sequence="4" value="Internal"/>
+                <element label="Event" sequence="5" value="Event"/>
             </choice>
         </element>
         <element label="Benefit" max_length="4000" name="benefit" type="string"/>
@@ -22,12 +23,12 @@
         <element label="Engagement date" max_length="40" name="engagement_date" type="glide_date_time"/>
         <element label="Event name" max_length="80" name="event_name" type="string"/>
         <element label="Implication" max_length="4000" name="implication" type="string"/>
-        <element label="Internal account" max_length="32" name="internal_account" reference="sys_user" type="reference"/>
+        <element label="Internal account" max_length="32" name="internal_account" reference="cmn_department" type="reference"/>
         <element choice="1" label="Location" max_length="40" name="location" type="choice">
             <choice>
                 <element label="ServiceNow Facility" sequence="0" value="ServiceNow Facility"/>
-                <element label="Event Location" sequence="1" value="Event Location"/>
-                <element label="Customer Site" sequence="2" value="Customer Site"/>
+                <element label="Customer Site" sequence="1" value="Customer Site"/>
+                <element label="Event Location" sequence="2" value="Event Location"/>
                 <element label="Virtual" sequence="3" value="Virtual"/>
             </choice>
         </element>

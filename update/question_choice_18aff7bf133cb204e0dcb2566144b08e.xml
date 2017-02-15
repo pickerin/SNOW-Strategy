@@ -2,41 +2,41 @@
 <record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
-        <order>600</order>
+        <order>400</order>
         <question display_value="Whom is the Audience?">03e0fee913987ac0dce3b1676144b0dd</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>rob.pickering</sys_created_by>
-        <sys_created_on>2017-01-13 22:24:56</sys_created_on>
+        <sys_created_on>2017-02-14 23:03:51</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>bfc38b6513d87ac0dce3b1676144b0d0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Internal</sys_name>
+        <sys_id>18aff7bf133cb204e0dcb2566144b08e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alliance</sys_name>
         <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
-        <sys_update_name>question_choice_bfc38b6513d87ac0dce3b1676144b0d0</sys_update_name>
+        <sys_update_name>question_choice_18aff7bf133cb204e0dcb2566144b08e</sys_update_name>
         <sys_updated_by>rob.pickering</sys_updated_by>
-        <sys_updated_on>2017-02-14 23:03:05</sys_updated_on>
-        <text>Internal</text>
-        <value>Internal</value>
+        <sys_updated_on>2017-02-14 23:03:51</sys_updated_on>
+        <text>Alliance</text>
+        <value>Alliance</value>
     </question_choice>
-    <fx_price action="delete_multiple" query="id=bfc38b6513d87ac0dce3b1676144b0d0"/>
+    <fx_price action="delete_multiple" query="id=18aff7bf133cb204e0dcb2566144b08e"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>misc</field>
-        <id>bfc38b6513d87ac0dce3b1676144b0d0</id>
+        <id>18aff7bf133cb204e0dcb2566144b08e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>rob.pickering</sys_created_by>
-        <sys_created_on>2017-01-13 22:24:56</sys_created_on>
-        <sys_id>c6d3cb6513d87ac0dce3b1676144b0bf</sys_id>
+        <sys_created_on>2017-02-14 23:03:51</sys_created_on>
+        <sys_id>d0aff7bf133cb204e0dcb2566144b091</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>rob.pickering</sys_updated_by>
-        <sys_updated_on>2017-01-13 22:24:56</sys_updated_on>
+        <sys_updated_on>2017-02-14 23:03:51</sys_updated_on>
         <table>question_choice</table>
         <type>calculated</type>
     </fx_price>
@@ -44,16 +44,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_misc</field>
-        <id>bfc38b6513d87ac0dce3b1676144b0d0</id>
+        <id>18aff7bf133cb204e0dcb2566144b08e</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>rob.pickering</sys_created_by>
-        <sys_created_on>2017-01-13 22:24:56</sys_created_on>
-        <sys_id>46d3cb6513d87ac0dce3b1676144b0bf</sys_id>
+        <sys_created_on>2017-02-14 23:03:51</sys_created_on>
+        <sys_id>d4aff7bf133cb204e0dcb2566144b08f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>rob.pickering</sys_updated_by>
-        <sys_updated_on>2017-01-13 22:24:56</sys_updated_on>
+        <sys_updated_on>2017-02-14 23:03:51</sys_updated_on>
         <table>question_choice</table>
         <type>calculated</type>
     </fx_price>

@@ -13,7 +13,7 @@
         <default_value/>
         <delete_roles/>
         <delivery_plan/>
-        <description/>
+        <description><![CDATA[<p>Tooltip HTML</p>]]></description>
         <display_title>false</display_title>
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
@@ -60,7 +60,7 @@
         <sys_created_on>2017-01-16 20:27:20</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>79754e2213983ec0dce3b1676144b069</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Account?</sys_name>
         <sys_package display_value="Strategy" source="x_snc_strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_package>
         <sys_policy/>
@@ -68,16 +68,16 @@
         <sys_scope display_value="Strategy">5d2fe3f613c32600dbe0bcc32244b068</sys_scope>
         <sys_update_name>item_option_new_79754e2213983ec0dce3b1676144b069</sys_update_name>
         <sys_updated_by>rob.pickering</sys_updated_by>
-        <sys_updated_on>2017-01-23 21:35:40</sys_updated_on>
+        <sys_updated_on>2017-02-14 23:34:11</sys_updated_on>
         <table/>
-        <tooltip/>
+        <tooltip>Tooltip</tooltip>
         <type>8</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <variable_name/>
         <variable_set/>
-        <variable_width/>
+        <variable_width>100</variable_width>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
